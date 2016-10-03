@@ -30,7 +30,7 @@ soundManager.createSound({
 });
 
 
-var socket = io('http://localhost:81');
+var socket = io('http://localhost');
 
 //Компонент игрового поля
 var GameField = React.createClass({

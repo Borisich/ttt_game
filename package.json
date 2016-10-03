@@ -2,14 +2,13 @@
   "name": "ttt_game",
   "version": "1.0.0",
   "description": "",
-  "main": "server/index.js",
+  "main": "client/index.html",
   "dependencies": {
     "socket.io": "^1.4.8"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "server/index.js"
+	"start": "node server/index.js"
   },
   "author": "Ivan",
   "license": "ISC"
