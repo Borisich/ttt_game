@@ -1,0 +1,73 @@
+
+.yourmessage:before{
+    color: red;
+    content: "Вы: ";
+}
+.othermessage:before{
+    color: blue;
+    content: "Соперник: ";
+}
+#invitelink {
+    text-align: center;
+}
+#gamespace {
+    width: 700px;
+    margin: 0 auto;
+
+}
+
+#field {
+
+	height: 400px;
+	width: 400px;
+    display: inline-block;
+}
+
+#chat {
+    width: 200px;
+    float: right;
+}
+
+.empty,.x,.o {
+	position: relative;
+	background-color: #FA6900;
+    border-radius: 5px;
+	margin: 5px;
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+    transition: all 0.5s ease;
+}
+
+
+
+.empty:hover{
+    box-shadow: inset 0 0 0 5px #f6fa35;
+}
+
+.x:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "\2716"; /* X */
+    font-size: 70px; 
+    color: #FFF;
+    line-height: 100px;
+    text-align: center;
+}
+.o:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "\039f"; /* O */
+    font-family: "arial";
+	font-size: 70px; 
+    color: #FFF;
+    line-height: 100px;
+    text-align: center;
+}
+
