@@ -1,7 +1,7 @@
 var app = require('http').createServer();
 var io = require('socket.io')(app);
-
-app.listen(80);
+console.log ("running");
+app.listen(81);
 
 var Room = require('./room');
 
